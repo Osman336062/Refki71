@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane fx:id="mainBorderPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sep1.LoginView">
+   <children>
+         <left>
+            <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="36.0" prefWidth="119.0" text="Button" />
+                  <Button fx:id="Salgsdyr_bottom" mnemonicParsing="false" onAction="#onShowAnimalForSaleClick" prefHeight="36.0" prefWidth="119.0" text="Salgsdyr" />
+                  <Button mnemonicParsing="false" prefHeight="36.0" prefWidth="119.0" text="Passningsdyr" />
+                  <Button mnemonicParsing="false" prefHeight="36.0" prefWidth="119.0" text="Kunder" />
+                  <Button mnemonicParsing="false" prefHeight="36.0" prefWidth="119.0" text="andet" />
+               </children>
+            </VBox>
+         </left>
+   </children>
+</BorderPane>
